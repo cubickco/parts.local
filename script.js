@@ -9,13 +9,15 @@
  var a;
  var b;
  var c;
-
-function changebtn(value){
+ 
+ function changebtn(value){
   if(value==1){
   a=1;
- } else if(value==2){
+ }
+  if(value==2){
   a=2;
- } else if(value==3){
+ } 
+ if(value==3){
   a=3;
  }
  if(value==4){
@@ -34,7 +36,7 @@ function changebtn(value){
   c=3;
  }
  
-if (a=1 && b=1 && c=1) {
+if (a==1 && b==1 && c==1) {
   button1.style.display="block";
 }
  
